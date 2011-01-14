@@ -13,6 +13,7 @@ public class ServerConnector implements Runnable
 	    		try {
 					serverSocket = new ServerSocket(1234);
 				} catch (IOException e) {
+					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 	    		
@@ -34,7 +35,7 @@ public class ServerConnector implements Runnable
 	                                             .getOutputStream());
 	                    ObjectInputStream in = new ObjectInputStream(
 	                                               new BufferedInputStream(socket.getInputStream(), 100));
-	                    //TODO send to server
+	                    //send to server
 	                }
 	                catch (IOException ioe)
 	                {
@@ -43,11 +44,6 @@ public class ServerConnector implements Runnable
 	                }
 	            }
 	        }
-	
-	public getCurrentConnection()
-	{
-		
-	}
 
 
 	@Override

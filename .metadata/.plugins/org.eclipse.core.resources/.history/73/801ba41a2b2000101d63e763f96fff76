@@ -15,7 +15,11 @@ public class WalkServer
 	
 	public WalkServer(ObjectInputStream i, ObjectOutputStream o)
 	{
-		Thread connectionManager = new Thread(new ServerConnector());
+		
+	}
+	
+	public void run()
+	{
 		
 	}
 	
