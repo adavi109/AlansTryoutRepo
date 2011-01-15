@@ -104,7 +104,7 @@ public class Lander extends Game
 		
 		accelX = accel * Math.sin( ship.getRotation() );
 		
-		accelY = accel * Math.cos( ship.getRotation() )- .2; // the - .2 is for falling
+		accelY = accel * Math.cos( ship.getRotation() )- .2;
 		
 		speedY = speedY + -accelY * timePassed;
 		

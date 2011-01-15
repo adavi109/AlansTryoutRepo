@@ -56,7 +56,6 @@ public class Lander extends Game
 	public void advance( double timePassed )
 	{
 		kboard.poll();
-		
 		if (kboard.keyDown(KeyEvent.VK_A))
 		{
 			angle = angle - 1;
@@ -104,7 +103,7 @@ public class Lander extends Game
 		
 		accelX = accel * Math.sin( ship.getRotation() );
 		
-		accelY = accel * Math.cos( ship.getRotation() )- .2; // the - .2 is for falling
+		accelY = accel * Math.cos( ship.getRotation() );
 		
 		speedY = speedY + -accelY * timePassed;
 		
