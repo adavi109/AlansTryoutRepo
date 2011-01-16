@@ -82,7 +82,6 @@ public class ShipGrav extends Game
 		}
 		ship.setLocation(clickLoc);
 		// this should go away
-		// i also did this randomly
 
 			
 
