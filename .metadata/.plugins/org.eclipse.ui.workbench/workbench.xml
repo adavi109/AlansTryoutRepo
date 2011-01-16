@@ -31,28 +31,13 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Planet2.java" partName="Planet2.java" path="G:/Users/Alan/My work/NewGit/PlanetSplode/src/Planet2.java" title="Planet2.java" tooltip="PlanetSplode/src/Planet2.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PlanetSplode/src/Planet2.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="27" selectionOffset="668" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Lander.java" partName="Lander.java" path="G:/Users/Alan/My work/NewGit/PlanetSplode/src/Lander.java" title="Lander.java" tooltip="PlanetSplode/src/Lander.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PlanetSplode/src/Lander.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2040" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrimaryGameDisplay.java" partName="PrimaryGameDisplay.java" path="G:/Users/Alan/My work/NewGit/Gamed/src/PrimaryGameDisplay.java" title="PrimaryGameDisplay.java" tooltip="Gamed/src/PrimaryGameDisplay.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Gamed/src/PrimaryGameDisplay.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="31" selectionOffset="2529" selectionTopPixel="1581"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ShipGrav.java" partName="ShipGrav.java" path="G:/Users/Alan/My work/NewGit/PlanetSplode/src/ShipGrav.java" title="ShipGrav.java" tooltip="PlanetSplode/src/ShipGrav.java" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ShipGrav.java" partName="ShipGrav.java" path="G:/Users/Alan/My work/NewGit/PlanetSplode/src/ShipGrav.java" title="ShipGrav.java" tooltip="PlanetSplode/src/ShipGrav.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PlanetSplode/src/ShipGrav.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1936" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1819" selectionTopPixel="663"/>
 </editor>
 </editors>
 <views>
@@ -250,8 +235,6 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Gamed/src/PrimaryGameDisplay.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Gamed/src/Player.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Gamed/src/ConnectionClient2.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Gamed/src/ServerConnector.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Gamed/src/WalkServer.java"/>
@@ -266,147 +249,160 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Gamed/src/PrimaryGameDisplay.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/PlanetSplode/src/ShipGrav.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/PlanetSplode/src/Lander.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/PlanetSplode/src/ShipGrav.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/PlanetSplode/src/Planet2.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/PlanetSplode/src/Lander.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/PlanetSplode/src/ShipGrav.java"/>
 </editors>
-<item historyLabel="PrimaryGameDisplay.java" index="0">
-<position info="not_deleted" x="692" y="0"/>
-</item>
-<item historyLabel="Player.java" index="1">
-<position info="not_deleted" x="555" y="0"/>
-</item>
-<item historyLabel="ConnectionClient2.java" index="2">
-<position info="not_deleted" x="256" y="0"/>
-</item>
-<item historyLabel="ServerConnector.java" index="3">
-<position info="not_deleted" x="388" y="0"/>
-</item>
-<item historyLabel="WalkServer.java" index="4">
+<item historyLabel="WalkServer.java" index="2">
 <position info="not_deleted" x="453" y="0"/>
 </item>
-<item historyLabel="ServerConnector.java" index="3">
+<item historyLabel="ServerConnector.java" index="1">
 <position info="not_deleted" x="388" y="0"/>
 </item>
-<item historyLabel="ServerConnector.java" index="3">
+<item historyLabel="ServerConnector.java" index="1">
 <position info="not_deleted" x="1452" y="0"/>
 </item>
-<item historyLabel="ServerConnector.java" index="3">
+<item historyLabel="ServerConnector.java" index="1">
 <position/>
 </item>
-<item historyLabel="ConnectionClient2.java" index="2">
+<item historyLabel="ConnectionClient2.java" index="0">
 <position info="not_deleted" x="256" y="0"/>
 </item>
-<item historyLabel="ServerConnector.java" index="3">
+<item historyLabel="ServerConnector.java" index="1">
 <position info="not_deleted" x="947" y="0"/>
 </item>
-<item historyLabel="BufferedInputStream.class" index="5">
+<item historyLabel="BufferedInputStream.class" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ServerConnector.java" index="3">
+<item historyLabel="ServerConnector.java" index="1">
 <position info="not_deleted" x="297" y="0"/>
 </item>
-<item historyLabel="ConnectionClient2.java" index="2">
+<item historyLabel="ConnectionClient2.java" index="0">
 <position info="not_deleted" x="256" y="0"/>
 </item>
-<item historyLabel="WalkServer.java" index="4">
+<item historyLabel="WalkServer.java" index="2">
 <position info="not_deleted" x="453" y="0"/>
 </item>
-<item historyLabel="WalkServer.java" index="4">
+<item historyLabel="WalkServer.java" index="2">
 <position info="not_deleted" x="459" y="0"/>
 </item>
-<item historyLabel="ServerConnector.java" index="3">
+<item historyLabel="ServerConnector.java" index="1">
 <position info="not_deleted" x="297" y="0"/>
 </item>
-<item historyLabel="ServerConnector.java" index="3">
+<item historyLabel="ServerConnector.java" index="1">
 <position info="not_deleted" x="1368" y="0"/>
 </item>
-<item historyLabel="PrimaryGameDisplay.java" index="6">
+<item historyLabel="PrimaryGameDisplay.java" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Player.java" index="7">
+<item historyLabel="Player.java" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ConnectionClient2.java" index="8">
+<item historyLabel="ConnectionClient2.java" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="WalkServer.java" index="9">
+<item historyLabel="WalkServer.java" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Planet2.java" index="10">
+<item historyLabel="Planet2.java" index="8">
 <position info="not_deleted" x="2952" y="0"/>
 </item>
-<item historyLabel="Planet2.java" index="10">
+<item historyLabel="Planet2.java" index="8">
 <position info="not_deleted" x="3101" y="0"/>
 </item>
-<item historyLabel="Game.class" index="11">
+<item historyLabel="Game.class" index="9">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Planet2.java" index="10">
+<item historyLabel="Planet2.java" index="8">
 <position info="not_deleted" x="1804" y="0"/>
 </item>
-<item historyLabel="Lander.java" index="12">
+<item historyLabel="Lander.java" index="10">
 <position info="not_deleted" x="628" y="0"/>
 </item>
-<item historyLabel="PrimaryGameDisplay.java" index="13">
+<item historyLabel="PrimaryGameDisplay.java" index="11">
 <position info="not_deleted" x="602" y="0"/>
 </item>
-<item historyLabel="Lander.java" index="12">
+<item historyLabel="Lander.java" index="10">
 <position info="not_deleted" x="628" y="0"/>
 </item>
-<item historyLabel="Lander.java" index="12">
+<item historyLabel="Lander.java" index="10">
 <position info="not_deleted" x="1027" y="0"/>
 </item>
-<item historyLabel="PrimaryGameDisplay.java" index="13">
+<item historyLabel="PrimaryGameDisplay.java" index="11">
 <position info="not_deleted" x="602" y="0"/>
 </item>
-<item historyLabel="Lander.java" index="12">
+<item historyLabel="Lander.java" index="10">
 <position info="not_deleted" x="1338" y="0"/>
 </item>
-<item historyLabel="PrimaryGameDisplay.java" index="13">
+<item historyLabel="PrimaryGameDisplay.java" index="11">
 <position info="not_deleted" x="2529" y="31"/>
 </item>
-<item historyLabel="Lander.java" index="12">
+<item historyLabel="Lander.java" index="10">
 <position info="not_deleted" x="1376" y="0"/>
 </item>
-<item historyLabel="Planet2.java" index="10">
+<item historyLabel="Planet2.java" index="8">
 <position info="not_deleted" x="3859" y="109"/>
 </item>
-<item historyLabel="Lander.java" index="12">
+<item historyLabel="Lander.java" index="10">
 <position info="not_deleted" x="1376" y="0"/>
 </item>
-<item historyLabel="ShipGrav.java" index="14">
+<item historyLabel="ShipGrav.java" index="12">
 <position/>
 </item>
-<item historyLabel="Lander.java" index="12">
+<item historyLabel="Lander.java" index="10">
 <position info="not_deleted" x="0" y="2590"/>
 </item>
-<item historyLabel="ShipGrav.java" index="14">
+<item historyLabel="ShipGrav.java" index="12">
 <position info="not_deleted" x="664" y="0"/>
 </item>
-<item historyLabel="Lander.java" index="12">
+<item historyLabel="Lander.java" index="10">
 <position info="not_deleted" x="241" y="0"/>
 </item>
-<item historyLabel="Planet2.java" index="10">
+<item historyLabel="Planet2.java" index="8">
 <position info="not_deleted" x="3859" y="109"/>
 </item>
-<item historyLabel="PrimaryGameDisplay.java" index="13">
+<item historyLabel="PrimaryGameDisplay.java" index="11">
 <position info="not_deleted" x="2529" y="31"/>
 </item>
-<item historyLabel="ShipGrav.java" index="14">
+<item historyLabel="ShipGrav.java" index="12">
 <position info="not_deleted" x="1389" y="0"/>
 </item>
-<item historyLabel="Planet2.java" index="10">
+<item historyLabel="Planet2.java" index="8">
 <position info="not_deleted" x="4221" y="0"/>
 </item>
-<item historyLabel="ShipGrav.java" index="14">
+<item historyLabel="ShipGrav.java" index="12">
 <position/>
 </item>
-<item historyLabel="Planet2.java" index="10">
+<item historyLabel="Planet2.java" index="8">
 <position info="not_deleted" x="668" y="27"/>
 </item>
-<item historyLabel="ShipGrav.java" index="14">
+<item historyLabel="ShipGrav.java" index="12">
 <position info="not_deleted" x="1854" y="0"/>
 </item>
-<item active="true" historyLabel="Lander.java" index="15">
+<item historyLabel="Lander.java" index="13">
 <position info="not_deleted" x="241" y="0"/>
+</item>
+<item historyLabel="ShipGrav.java" index="14">
+<position info="not_deleted" x="1937" y="0"/>
+</item>
+<item historyLabel="Planet2.java" index="15">
+<position info="not_deleted" x="668" y="27"/>
+</item>
+<item historyLabel="Lander.java" index="16">
+<position info="not_deleted" x="755" y="0"/>
+</item>
+<item historyLabel="ShipGrav.java" index="17">
+<position/>
+</item>
+<item historyLabel="Lander.java" index="16">
+<position info="not_deleted" x="755" y="0"/>
+</item>
+<item historyLabel="ShipGrav.java" index="17">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="ShipGrav.java" index="17">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -428,11 +424,11 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ShipGrav.java" tooltip="PlanetSplode/src/ShipGrav.java">
 <persistable path="/PlanetSplode/src/ShipGrav.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrimaryGameDisplay.java" tooltip="Gamed/src/PrimaryGameDisplay.java">
-<persistable path="/Gamed/src/PrimaryGameDisplay.java"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Lander.java" tooltip="PlanetSplode/src/Lander.java">
 <persistable path="/PlanetSplode/src/Lander.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrimaryGameDisplay.java" tooltip="Gamed/src/PrimaryGameDisplay.java">
+<persistable path="/Gamed/src/PrimaryGameDisplay.java"/>
 </file>
 <file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Game.class" tooltip="fang2.core.Game">
 <persistable org.eclipse.jdt.ui.ClassFileIdentifier="=PlanetSplode/fang2091007.jar&lt;fang2.core(Game.class"/>

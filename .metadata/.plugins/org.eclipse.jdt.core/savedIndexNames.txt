@@ -2,7 +2,6 @@ INDEX VERSION 1.126+G:\Users\Alan\My work\NewGit\.metadata\.plugins\org.eclipse.
 2979864512.index
 3543094259.index
 3476075045.index
-2913180704.index
 2897944469.index
 2477424323.index
 978754967.index

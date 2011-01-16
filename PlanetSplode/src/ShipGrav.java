@@ -74,13 +74,14 @@ public class ShipGrav extends Game
 		
 		if ( clickLoc.x != clickTarg.x )
 		{
-			clickLoc.x = clickLoc.x + (clickTarg.x - clickLoc.x)/2 * timePassed ;
+			clickLoc.x = clickLoc.x + (clickTarg.x - clickLoc.x)/2 * (timePassed *2) ;
 		}
 		if ( clickLoc.y != clickTarg.y )
 		{
-			clickLoc.y = clickLoc.y + ((clickTarg.y - clickLoc.y)/2 * timePassed) ;
+			clickLoc.y = clickLoc.y + (clickTarg.y - clickLoc.y)/2 * (timePassed * 2) ;
 		}
 		ship.setLocation(clickLoc);
+		// this should go away
 
 			
 
