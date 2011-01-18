@@ -19,4 +19,8 @@
 		<item value="11" key="INCLUDE_MASK"/>
 		<item value="0" key="HISTORY_SIZE"/>
 	</section>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+	</section>
+	<section name="RenameInformationPopup">
+	</section>
 </section>

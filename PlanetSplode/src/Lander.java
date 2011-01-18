@@ -24,7 +24,9 @@ public class Lander extends Game
 	StringSprite ship;
 	double speedX, speedY;
 	double accel, accelX, accelY;
-	double angle;
+	double thrust, thrustx, thrusty;
+	double thrustAngle;
+	double accelAngle;
 	KeyboardInput kboard;
 	
 	/**sets up the game*/
@@ -35,7 +37,8 @@ public class Lander extends Game
 		accelX = 0;
 		accelY = 0;
 		accel = 0;
-		angle = 0;
+		accelAngle = 0;
+		thrustAngle = 0;
 		ship = new StringSprite( "H" );
 		ship.setColor( getColor( "red" ) );
 		ship.setSize( 0.2 );
@@ -59,22 +62,22 @@ public class Lander extends Game
 		
 		if (kboard.keyDown(KeyEvent.VK_A))
 		{
-			angle = angle - 1;
+			accelAngle = accelAngle - 1;
 		}
 		
 		if (kboard.keyDown(KeyEvent.VK_D))
 		{
-			angle = angle + 1;
+			accelAngle = accelAngle + 1;
 		}
 		
 		if (kboard.keyDown(KeyEvent.VK_RIGHT))
 		{
-			angle = angle + 1;
+			accelAngle = accelAngle + 1;
 		}
 		
 		if (kboard.keyDown(KeyEvent.VK_LEFT))
 		{
-			angle = angle - 1;
+			accelAngle = accelAngle - 1;
 		}
 		
 		if (kboard.keyDown(KeyEvent.VK_DOWN))
@@ -104,13 +107,13 @@ public class Lander extends Game
 		
 		accelX = accel * Math.sin( ship.getRotation() );
 		
-		accelY = accel * Math.cos( ship.getRotation() )- .2; // the - .2 is for falling
+		accelY = accel * Math.cos( ship.getRotation() );
 		
 		speedY = speedY + -accelY * timePassed;
 		
 		speedX = speedX + accelX * timePassed;
 		
-		ship.rotateDegrees( angle );
+		ship.rotateDegrees( accelAngle );
 		
 		ship.translate( speedX * timePassed, speedY * timePassed );
 	}

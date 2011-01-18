@@ -25,7 +25,8 @@ public class ShipGrav extends Game
 	StringSprite ship;
 	double speedX, speedY;
 	double accel, accelX, accelY;
-	double angle;
+	double thrust, thrustx, thrusty;
+	double accelAngle, thrustAngle;
 	KeyboardInput kboard;
 	Location2D clickLoc, clickTarg;
 	private Location2D clicked;
